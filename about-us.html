@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-us</title>
+    <link rel="icon" href="img/titile-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wont_awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="bg-secondary">
+        <!-- logo Header -->
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12  pt-md-5 pt-2">
+                    <figure class="w-60px w-lg-45px h-lg-45px h-60px bg-primary rounded-circle d-flex justify-content-center align-items-center mb-0 ml-auto mr-auto">
+                        <img src="img/Buna-logo.png"  alt="" class="h-lg-20px">
+                    </figure>
+                    <p class="ff-roboto-slab text-dark font-weight-bold fs-36 fs-lg-26 text-center">Buna</p>
+
+                    <nav class="navbar navbar-expand-lg position-relative">
+                        <button class="navbar-toggler toggler border-primary color-primary outline-none mr-auto" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div id="my-nav" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto  mr-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Homepage-onepage.html">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link active-1" href="about-us.html">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Portfolio_Masonry_Space.html">portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Servic-page.html">services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link " href="our-blog.html">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Contact-page.html">contact</a>
+                                </li>
+                                <li class="nav-item ml-lg-3">
+                                    <button class="btn shadow-none hover-btn-portfolio  text-dark border-dark show-search "><i class="fas fa-search"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+        <div class="bg-dark position-absolute w-100">
+            <div class=" pt-1  w-50 w-sm-100 ml-auto mr-auto search-slide-down px-2">
+                <form action="" method="GET" class="search-portfolio cursor-pointer position-relative  my-3 z-index-100">
+                    <span class="fas fa-search color-primary position-absolute right-0 "></span>
+                    <input type="text" placeholder="Type your search keyword here and hit Enter..." required minlength="3" class="ff-open-sans  border-bottom-primary-2px  fs-14 fs-sm-12  bg-none border-none  outline-none w-100">
+                </form>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- our blog -->
+    <section class="bg-dark ">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 text-center pt-100px pb-100px pt-md-50px pb-md-50px">
+                    <h3 class="ff-roboto-slab font-weight-bold fs-36 fs-md-25 text-white text-uppercase">We’re here to passionate your business</h3>
+                    <p class="ff-open-sans fs-18 fs-md-14 text-secondary m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique quis sapien et auctor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Progress Section -->
+    <section class="mt-md-100px mt-3" id="progress-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 ">
+                    <div class="ff-roboto-slab  font-weight-bold   text-dark fs-12 text-decoration-none  text-uppercase   active-tab"><i class="fas fa-circle mr-2 active-1"></i>about us</div> 
+                    <p class="ff-roboto-slab fs-25 fs-md-16 my-4">Hi, We’re <span class="font-weight-bold">Buna</span>. A Creative Agency 
+                        That will Provide your Next Project with 
+                        The Necessary Experience. Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit. Ut tristique quis 
+                        sapien et auctor. Sed eu dui ac lorem tempus viverra. Suspendisse
+                        mollis tortor sit amet dui lacinia, lobortis blandit quam maximus.
+                    </p>
+                    <div class="btn btn-primary ff-open-sans fs-13 px-3">Services</div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-4" >
+                    <!-- Progress Project Planing -->
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between ff-open-sans fs-15 font-weight-bold">
+                            <!-- Name Progress -->
+                            <div class="">Project Planning</div>
+                            <!-- Parcent Progress -->
+                            <div><span id="parcent-project">0</span>%</div>
+                        </div>
+                        <!-- Progress-bar -->
+                        <div class="mt-3 w-100 h-15px bg-secondary rounded overflow-hidden">
+                            <!-- Progress -->
+                            <div class="w-10 h-15px bg-primary-gradient rounded" id="progress-project"></div>
+                        </div>
+                    </div>
+                    <!-- Progress Branding -->
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between ff-open-sans fs-15 font-weight-bold">
+                            <!-- Name Progress -->
+                            <div class="">Branding</div>
+                            <!-- Parcent Progress -->
+                            <div><span id="parcent-branding">0</span>%</div>
+                        </div>
+                        <!-- Progress-bar -->
+                        <div class="mt-3 w-100 h-15px bg-secondary rounded overflow-hidden">
+                            <!-- Progress -->
+                            <div class="w-10 h-15px bg-primary-gradient rounded" id="progress-branding"></div>
+                        </div>
+                    </div>
+
+                    <!--Progress Development  -->
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between ff-open-sans fs-15 font-weight-bold">
+                            <!-- Name Progress -->
+                            <div class="">Development</div>
+                            <!-- Parcent Progress -->
+                            <div><span id="parcent-development">0</span>%</div>
+                        </div>
+                        <!-- Progress-bar -->
+                        <div class="mt-3 w-100 h-15px bg-secondary rounded overflow-hidden">
+                            <!-- Progress -->
+                            <div class="w-10 h-15px bg-primary-gradient rounded" id="progress-development"></div>
+                        </div>
+                    </div>
+
+                    <!--Progress Product Desing -->
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between ff-open-sans fs-15 font-weight-bold">
+                            <!-- Name Progress -->
+                            <div class="">Product Desing</div>
+                            <!-- Parcent Progress -->
+                            <div><span id="parcent-product-desing">0</span>%</div>
+                        </div>
+                        <!-- Progress-bar -->
+                        <div class="mt-3 w-100 h-15px bg-secondary rounded overflow-hidden">
+                            <!-- Progress -->
+                            <div class="w-10 h-15px bg-primary-gradient rounded" id="progress-product-desing"></div>
+                        </div>
+                    </div>
+
+                    <!--Progress Web Desing -->
+                    <div class="">
+                        <div class="d-flex justify-content-between ff-open-sans fs-15 font-weight-bold">
+                            <!-- Name Progress -->
+                            <div class="">Web Desing</div>
+                            <!-- Parcent Progress -->
+                            <div><span id="parcent-web-desing">0</span>%</div>
+                        </div>
+                        <!-- Progress-bar -->
+                        <div class="mt-3 w-100 h-15px bg-secondary rounded overflow-hidden">
+                            <!-- Progress -->
+                            <div class="w-10 h-15px bg-primary-gradient rounded" id="progress-web-desing"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Report -->
+    <div class="container-fluid bg-secondary mt-lg-100px mt-4">
+        <div class="row">
+            <div class="col-sm-6 d-flex p-0">
+                <div class="col-sm-6  text-center my-md-5 my-3 ">
+
+                    <a  class="w-100px h-100px w-sm-75px h-sm-75px bg-primary rounded-circle cursor-pointer ml-auto mr-3  mr-auto mt-2 d-flex justify-content-center align-items-center hover-services transition-03">
+                        <i class="fas fa-birthday-cake fs-36 fs-sm-30 text-white transition-03"></i>
+                    </a>
+
+                    <div>
+                        <div class="ff-open-sans ff-roboto-slab fs-55 fs-sm-36 text-dark">2020</div>
+                        <span class="ff-open-sans ff-roboto-slab fs-20 text-secondary">Founded</span>
+                    </div>
+
+                </div>
+                <div class="col-sm-6  text-center my-md-5 my-3 ">
+                    <a  class="w-100px h-100px w-sm-75px h-sm-75px bg-primary rounded-circle cursor-pointer ml-auto mr-3  mr-auto mt-2 d-flex justify-content-center align-items-center hover-services transition-03">
+                        <i class="fas fa-user fs-36 fs-sm-30 text-white transition-03"></i>
+                    </a>
+                    <div>
+                        <div class="ff-open-sans ff-roboto-slab fs-55 fs-sm-36 text-dark">120</div>
+                        <span class="ff-open-sans ff-roboto-slab fs-20 text-secondary">Customers</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 d-flex p-0">
+                <div class="col-sm-6 text-center my-md-5 my-3 ">
+                    <a  class="w-100px h-100px w-sm-75px h-sm-75px bg-primary rounded-circle cursor-pointer ml-auto mr-3  mr-auto mt-2 d-flex justify-content-center align-items-center hover-services transition-03">
+                        <i class="fas fa-database fs-36 fs-sm-30 text-white transition-03"></i>
+                    </a>
+                    <div>
+                        <div class="ff-open-sans ff-roboto-slab fs-55 fs-sm-36 text-dark">530</div>
+                        <span class="ff-open-sans ff-roboto-slab fs-20 text-secondary">Projects</span>
+                    </div>
+                </div>
+                <div class="col-sm-6  text-center my-md-5 my-3 ">
+                    <a  class="w-100px h-100px w-sm-75px h-sm-75px bg-primary rounded-circle cursor-pointer ml-auto mr-3  mr-auto mt-2 d-flex justify-content-center align-items-center hover-services transition-03">
+                        <i class="fas fa-certificate fs-36 fs-sm-30 text-white transition-03"></i>
+                    </a>
+                    <div>
+                        <div class="ff-open-sans ff-roboto-slab fs-55 fs-sm-36 text-dark">16</div>
+                        <span class="ff-open-sans ff-roboto-slab fs-20 text-secondary">Awards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Our creative team -->
+     <div class="container-fluid p-0 overflow-hidden">
+        <div class="row">
+            
+            <div class="col-lg-7 text-sm-left text-center pt-100px pl-130px pt-md-50px pl-md-25px pr-md-25px">
+                <div class="ff-roboto-slab  font-weight-bold w-sm-100  text-dark fs-12 text-decoration-none  text-uppercase   active-tab"><i class="fas fa-circle mr-2 active-1"></i>our creative team</div>
+                <p class="ff-roboto-slab  mt-4 mb-4   fs-25 fs-md-20">We’re <span class="font-weight-bold">a bunch</span> of UX Consultants, Designers, Photographers, and Dreamy Developers.</p>
+                <div class="col-lg-12  d-sm-flex p-0 mb-5">
+                    <div class="col-3 ml-auto mr-auto ml-sm-0 mr-sm-0  p-0 transition-03 mb-3 mw-sm-300px h-sm-160px">
+                        <div class="watch-founder position-absolute w-100 h-100 bg-primary rounded  text-white d-flex justify-content-center  align-items-center cursor-pointer opacity-0">
+                            <div class="text-center">
+                                <h4 class="ff-roboto-slab font-weight-bold fs-18">Jason Statham</h4>
+                                <h5 class="ff-open-sans fs-10 text-uppercase ">founder</h5>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="far fs-13  transition-03 mr-1 fa-envelope"></i></a>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="fab fs-13  transition-03 fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <img src="img/img-6.jpeg" class="w-100 h-100 rounded object-fit-cover " height="160"    alt="">
+                    </div>
+                    <div class="col-3  p-0 ml-auto mr-auto ml-sm-3 mr-sm-0 mb-3 mw-sm-300px h-sm-160px">
+                        <div class="watch-founder position-absolute w-100 h-100 bg-primary rounded  text-white d-flex justify-content-center  align-items-center cursor-pointer opacity-0">
+                            <div class="text-center">
+                                <h4 class="ff-roboto-slab font-weight-bold fs-18"> Hrithik Roshan</h4>
+                                <h5 class="ff-open-sans fs-10 text-uppercase ">founder</h5>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="far fs-13  transition-03 mr-1 fa-envelope"></i></a>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="fab fs-13  transition-03 fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <img src="img/img-7.jpg" class="w-100 h-100  rounded object-fit-cover" height="160"  alt="">
+                    </div>
+                    <div class="col-3  p-0 ml-auto mr-auto ml-sm-3 mr-sm-0 mb-3 mw-sm-300px h-sm-160px">
+                        <div class="watch-founder position-absolute w-100 h-100 bg-primary rounded  text-white d-flex justify-content-center  align-items-center cursor-pointer opacity-0">
+                            <div class="text-center">
+                                <h4 class="ff-roboto-slab font-weight-bold fs-18">Tom Hardy</h4>
+                                <h5 class="ff-open-sans fs-10 text-uppercase ">founder</h5>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="far fs-13  transition-03 mr-1 fa-envelope"></i></a>
+                                <a href="#" class="text-decoration-none text-white hover-icon"><i class="fab fs-13  transition-03 fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <img src="img/img-8.jpg" class="w-100 h-100  rounded object-fit-cover" height="160"  alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center  p-0">
+                <div class="play-video-1 position-absolute bg-primary opacity-08 text-white w-100 h-100 d-flex align-items-center  z-index-100 cursor-pointer">
+                    <div class="w-100">
+                        <p class="ff-roboto-slab opacity-09 font-weight-bold ">
+                            <span class="fs-36 d-block  ">Buna</span>
+                            <span class="fs-24 d-block  font-weight-normal">in</span>
+                            <span class="fs-60 d-block mb-3">New York</span>
+                            <span class="ff-open-sans font-weight-normal cursor-pointer fs-14 mt-5"><i class="fas fa-play mr-2"></i>Play Video</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="play-video-1 position-absolute w-100 h-100 ">
+                    <img src="img/img-5.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                </div>
+                <iframe id="video-1" class="w-100 d-block h-sm-300px" height="500" src="https://www.youtube.com/embed/054smjVFy8A?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lets Chat With you -->
+    <div class="bg-shape d-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center my-md-5 my-3">
+                    <p class="ff-roboto-slab fs-35 fs-md-25 text-white text-uppercase mb-0 ">Let’s <span class="font-weight-bold">Chat</span> with you</p>
+                    <p class="ff-open-sans fs-18 fs-md-16 text-gray w-70 ml-auto mr-auto my-2  my-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique quis sapien et auctor. <br>
+                        Sed eu dui ac lorem tempus viverra. Suspendisse mollis tortor sit amet dui lacinia, <br> 
+                        lobortis blandit quam maximus.
+                    </p>
+                    <div class="btn btn-primary ff-open-sans fs-16 px-5">Start your project with us</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center py-4">
+                    <p class="ff-roboto-slab fs-18 mt-md-5 mt-2">285 Address & Street No, Your City, GH | (888) 520-4567 | info@domain.com</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-behance"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-dribbble"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    <p class="ff-roboto-slab fs-13  my-4">©2015, <span class="font-weight-bold">Buna.</span> All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/progressBar.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

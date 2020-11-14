@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Masonry_Space</title>
+    <link rel="icon" href="img/titile-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wont_awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-secondary">
+        <!-- logo Header -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center pt-5">
+                    <figure class="w-60px w-lg-45px h-lg-45px h-60px bg-primary rounded-circle d-flex justify-content-center align-items-center mb-0 ml-auto mr-auto">
+                        <img src="img/Buna-logo.png"  alt="" class="h-lg-20px">
+                    </figure>
+                    <p class="ff-roboto-slab text-dark font-weight-bold fs-36 fs-lg-26 ">Buna</p>
+
+                    <nav class="navbar navbar-expand-lg position-relative  container py-3 py-lg-4">
+                        <div id="my-nav" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link " href="Homepage-onepage.html">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="about-us.html">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Servic-page.html">services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link active-1" href="Portfolio_Item.html">portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="our-blog.html">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ff-open-sans font-weight-bold fs-15 text-dark text-uppercase hover-link" href="Contact-page.html">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                    <div class="d-flex justify-content-center pb-4">
+                        <button class="btn shadow-none hover-btn-portfolio  text-dark border-dark show-search "><i class="fas fa-search"></i></button>
+                        <button class="btn shadow-none hover-btn-portfolio  text-dark border-dark mx-2 show-filter "><i class="fas fa-th"></i></button>
+                        <button class="navbar-toggler text-dark border-dark d-lg-none d-block hover-btn-portfolio   outline-none" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+    </header>
+    <!-- Project Title -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center  bg-dark">
+                <div class="w-50 w-md-100 ml-auto mr-auto search-slide-down px-2">
+                    <form action="" method="GET" class="search-portfolio cursor-pointer position-relative my-3  z-index-100">
+                        <span class="fas fa-search color-primary position-absolute right-0"></span>
+                        <input type="text" placeholder="Type your search keyword here and hit Enter..." required minlength="3" class="ff-open-sans border-bottom-primary-2px fs-14 fs-sm-12 bg-none border-none  outline-none w-100">
+                    </form>
+                </div>
+                <div class="my-nav-2 isotope-2  filter-slide-down">
+                    <ul  class="list-inline ml-auto mr-auto mb-0 ">
+                        <li data-name="*" class="list-inline-item m-0 w-md-100  py-lg-4 py-2  px-3 ff-open-sans font-weight-bold fs-16 text-uppercase text-white  cursor-pointer hover active">all</li>
+                        <li data-name=".web-design" class="list-inline-item m-0 w-md-100   py-lg-4 py-2  px-3 ff-open-sans font-weight-bold fs-16 text-uppercase text-white  cursor-pointer hover">web design</li>
+                        <li data-name=".fraphic-design" class="list-inline-item m-0 w-md-100 py-lg-4 py-2  px-3 ff-open-sans font-weight-bold fs-16 text-uppercase text-white  cursor-pointer hover">fraphic design</li>
+                        <li data-name=".branding" class="list-inline-item m-0 w-md-100   py-lg-4 py-2 px-3 ff-open-sans font-weight-bold fs-16 text-uppercase text-white  cursor-pointer hover">branding</li>
+                        <li data-name=".product-design" class="list-inline-item m-0 w-md-100  py-lg-4 py-2  px-3 ff-open-sans font-weight-bold fs-16 text-uppercase text-white  cursor-pointer hover">product design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="grid w-100 mt-lg-5 mt-3">
+                    <div class="grid-item w-23 h-370px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px web-design">
+                        <div class="h-270px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-10.jpg"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-10.jpg" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="index3.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-49 h-570px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px fraphic-design">
+                        <div id="my-carousel-2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators w-23 bottom-0 m-0 mb-2">
+                               <li class="w-15px h-15px rounded-circle border m-1 active" data-target="#my-carousel-2" data-slide-to="0" ></li>
+                               <li class="w-15px h-15px rounded-circle border m-1 " data-target="#my-carousel-2" data-slide-to="1"></li>
+                               <li class="w-15px h-15px rounded-circle border m-1 " data-target="#my-carousel-2" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item h-470px h-md-200px cursor-pointer    active ">
+                                    <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center top-5 left-5 transition-03 opacity-0">
+                                        <div class="ff-open-sans fs-14 text-dark">
+                                            <i class="fas fa-heart mr-2"></i>
+                                            <span class="number-likes mr-1">135</span>Likes
+                                        </div>
+            
+                                        <a href="img/img-11.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                            <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                        </a>
+                                    </div>
+                                   <img class="d-block h-100 w-100 object-fit-cover" src="img/img-11.jfif" alt="">
+                                </div>
+                                <div class="carousel-item h-470px h-md-200px cursor-pointer ">
+                                    <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center top-5 left-5 transition-03 opacity-0">
+                                        <div class="ff-open-sans fs-14 text-dark">
+                                            <i class="fas fa-heart mr-2"></i>
+                                            <span class="number-likes mr-1">135</span>Likes
+                                        </div>
+            
+                                        <a href="img/img-12.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                            <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                        </a>
+                                    </div>
+                                   <img class="d-block h-100 w-100 object-fit-cover" src="img/img-12.jfif" alt="">
+                                   
+                                </div>
+                                <div class="carousel-item h-470px h-md-200px cursor-pointer ">
+                                    <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center top-5 left-5 transition-03 opacity-0">
+                                        <div class="ff-open-sans fs-14 text-dark">
+                                            <i class="fas fa-heart mr-2"></i>
+                                            <span class="number-likes mr-1">135</span>Likes
+                                        </div>
+            
+                                        <a href="img/img-13.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                            <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                        </a>
+                                    </div>
+                                   <img class="d-block h-100 w-100 object-fit-cover" src="img/img-13.jfif" alt="">
+                                   
+                               </div>
+                           </div>
+                       </div>
+                       <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                       <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-370px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px branding">
+                        <div class="h-270px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-14.webp"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-14.webp" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-470px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px web-design">
+                        <div class="h-370px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-15.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-15.jfif" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-470px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px product-design">
+                        <div class="h-370px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-17.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-17.jfif" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-470px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px web-design">
+                        <div class="h-370px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-19.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-19.jfif" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-370px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px fraphic-design">
+                        <div class="h-270px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-16.jfif"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-16.jfif" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-470px w-xl-32 w-lg-48 w-md-100 h-md-270px branding">
+                        <div class="h-370px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-18.jpg"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-18.jpg" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-49 h-470px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px product-design">
+                        <div class="h-370px  h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-21.jpeg"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-21.jpeg" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                    <div class="grid-item w-23 h-370px mb-4 w-xl-32 w-lg-48 w-md-100 h-md-270px branding">
+                        <div class="h-270px h-md-200px rounded position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                            <div class="show-likes position-absolute bg-white w-90 h-90 rounded opacity-09 d-flex justify-content-center align-items-center transition-03 opacity-0">
+                                <div class="ff-open-sans fs-14 text-dark">
+                                    <i class="fas fa-heart mr-2"></i>
+                                    <span class="number-likes mr-1">135</span>Likes
+                                </div>
+    
+                                <a href="img/img-20.png"   class="ff-open-sans fs-14 text-dark ml-2 d-block  gallery" data-fancybox="gallery-1">
+                                    <img src="img/fa-arow.png" class=" pb-1 mr-1"> View Larger
+                                </a>
+                            </div>
+                            
+                            <img src="img/img-20.png" class="w-100 h-100 object-fit-cover rounded" alt="">
+                        </div>
+                        <a href="Portfolio_Item.html" class="text-decoration-none ff-roboto-slab font-weight-bold fs-18 text-dark d-inline-block hover-link  my-2  my-md-3">Project Title</a>
+                        <p class="ff-open-sans font-weight-normal fs-14 text-secondary">Branding, Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center mt-3  ">
+                    <div class="btn text-dark border-dark pl-4 pr-4 mb-5">Loading more projects</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Subscribe  -->
+    <div class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center py-sm-5 py-3">
+                    <p class="ff-roboto-slab fs-35 fs-sm-30 text-white text-uppercase pt-5 ">Subscribe to our <span class="font-weight-bold">newsletter</span></p>
+                    <form action="" method="POST" class="form-control-plaintext form-2 col-lg-6  ml-auto mr-auto d-sm-flex">
+                        <div class="form-group w-100 px-3">
+                           <input type="email" name="email" id="email" class="required form-control  ff-open-sans font-italic" placeholder="Type your e-mail...">
+                        </div>
+                        <div class="form-group pr-2">
+                           <input type="submit" value="Submit" class="btn bg-dark text-white px-4">
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center py-4">
+                    <p class="ff-roboto-slab fs-18 mt-5">285 Address & Street No, Your City, GH | (888) 520-4567 | info@domain.com</p>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-behance"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-dribbble"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-secondary transition-03"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+
+                    <p class="ff-roboto-slab fs-13  my-4">©2015, <span class="font-weight-bold">Buna.</span> All Rights Reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
